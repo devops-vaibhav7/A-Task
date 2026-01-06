@@ -1,7 +1,6 @@
 services:
   app:
     container_name: app
-    build:
-      image: vaibhavyudiz/demo-app:latest
+    image: vaibhavyudiz/demo-app:latest
     ports:
       - "80:3000"
